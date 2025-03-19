@@ -6,7 +6,7 @@ on:
   
 env:
   PROJECT_NAME: board_project
-  BUCKET_NAME: occasio-boarding-bucket
+  BUCKET_NAME: occassio-boarding-bucket
   CODE_DEPLOY_APP_NAME: chuchuchi_cicd
   DEPLOYMENT_GROUP_NAME: chuchuchi_group
 
