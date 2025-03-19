@@ -30,11 +30,9 @@ jobs:
       - name: Build and Test
         run: ./gradlew build -x test
         
-      - name: List files in build/libs
-        run: ls chuchuchi/build/libs
-        
+  
       - name: Make Zip File
-        run: zip -qq -r ./$GITHUB_SHA.zip build/libs/*
+        run: zip -qq -r ./$GITHUB_SHA.zip .
         shell: bash
 
         
