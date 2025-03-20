@@ -47,8 +47,8 @@ jobs:
         run: aws s3 cp --region ap-northeast-2 ./$GITHUB_SHA.zip s3://$BUCKET_NAME/$PROJECT_NAME/$GITHUB_SHA.zip
 
       - name: Grant Deploy
-        run: chmod +x deploy.sh
-        working-directory: /scripts
+        run: chmod +x ./deploy.sh
+        working-directory: ./scripts
         shell: bash
 
 
