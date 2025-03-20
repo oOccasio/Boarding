@@ -48,7 +48,7 @@ jobs:
 
       - name: Grant Deploy
         run: chmod +x deploy.sh
-        working-directory: boarding/scripts
+        working-directory: /scripts
         shell: bash
 
 
